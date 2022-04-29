@@ -1,0 +1,353 @@
+/* estilos padrão */
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand',
+  sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #725C5C;
+  font-weight: 500;
+}
+h4{
+  color:#ED7839;
+}
+li  {
+  position: relative;
+  color: #725c5c;
+  border-bottom: 2px solid #E7E7E7;
+  height: 33px;
+  align-items: center;
+  padding-left: 24px;
+  padding-top: 7px;
+}
+/* Cabeçalho */
+.header {
+  display: flex;
+  background: #fdf1eb;
+  text-align: center;
+  margin-left: 220px;
+  justify-content: space-between;
+}
+.div-simposio {
+  padding-top: 5px;
+}
+.simposio-info {
+  display: flex;
+  padding-left: 36px;
+  padding-bottom: 4px;
+  font-size: 14px;
+}
+.titulo-cabecalho {
+  display: flex;
+  margin-top: 1px;
+  padding-left: 36px;
+  font-size: 18px;
+}
+.tradutor{
+  padding-top: 17px;
+  padding-left: 170px;
+}
+.btn-tradutor {
+  display: flex;
+  width: 97px;
+  padding-bottom: 5px;
+  height: 34px;
+  border: 2px solid #E7E7E7;
+  border-radius: 3px;
+  align-items: center;
+}
+.img-translate {
+  padding-bottom: 2px;
+}
+.img-dropdow {
+  padding-left: 5px;
+}
+.perfil{
+  padding-top: 17px;
+  padding-left: 20px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: right;
+  align-content: center;
+}
+.imagem-perfil:not(.ignoreCss){
+  padding-right: 20px;
+  margin-bottom: 5px;
+  align-content: center;
+  
+}
+/* menu lateral */
+.menu-lateral {
+  position: fixed;
+  float: left;
+  top: 0%;
+  bottom: -47.44%;
+  width: 220px;
+  height: 1770px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  z-index: -5;
+}
+.slogan {
+  display: flex;
+  background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+  width: 220px;
+  height: 73px;
+  color: #ffff;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+}
+.aba-ativa{
+  background: #FDF1EB;
+  border-style: solid;
+  border-left: 5px solid #ED7839;
+}
+/* seção titulo e botões */
+.container-titulo h1 {
+  float: left;
+}
+.titulo{
+  color: #ed7839;
+  font-size: 20px;
+  width: 1000px;
+  margin-top: 20px;
+  padding-left: 263px;
+}
+.botoes{
+  display: flex;
+ text-align: left;
+ justify-content: flex-end;
+ margin-right: 45px;
+ padding-top: 20px;
+  
+}
+.download-button{
+  background: #ED7839;
+  color: #fff;
+  font-weight: 500;
+  width: 120px;
+  height: 31px;
+  border-radius: 4px;
+}
+.download-icon{
+  margin-left: 2px;
+}
+.star-icon {
+  background: #ED7839;
+  width: 43px;
+  height: 31px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+.doi-icon{
+  background: #ED7839;
+  width: 43px;
+  height: 31px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+.texto-citacao{
+  color:#ED7839;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: end;
+  margin-right: 45px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+/* seção video e detalhes */
+.imagem-video{
+  padding-left: 263px; 
+}
+.detalhes-lateral {
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius: 3px;
+  Width: 242px;
+  Height: 439px;
+  Top: 73px;
+  Left: 816px;
+  float: right;
+  margin-right: 45px;
+  color: #5C5C5C;
+}
+.subtitulo{
+  color: #4E4E4E;
+  background: #FDF1EB;
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  border-radius: 3px 3px 0px 0px;
+  height: 45px;
+  left: 1px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: 'roboto',
+    sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+.conteudo-detalhes {
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  margin: 15px;
+}
+.roll {
+  float: right;
+  padding-right: 6px;
+  top: 128px;
+}
+.itens{
+  background: #ed7839;
+  left: 79.51%;
+  right: 9.16%;
+  top: 88%;
+  bottom: 1582px;
+  float: right;
+}
+.p1{
+margin-bottom: 20px;
+}
+.p2{
+Line-height: 20px;
+margin-bottom: 30px;
+}
+.p3{
+  opacity: 0.5;
+}
+.title {
+  color: #ed7839;
+}
+/* seção resumo, */
+.conteudo-central {
+  padding-left: 263px;
+  padding-right: 45px;
+}
+.detalhes {
+  box-sizing: border-box;
+  border: 1px solid #ECECEC;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#box-1 {
+  padding: 15px;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+}
+#box-1 .mostrar,
+#box-1 .hide-action {
+  display: none;
+}
+#box-1:target .mostrar,
+#box-1:target .hide-action {
+  display: block;
+}
+#box-1:target .show-action {
+  display: none;
+}
+/* seção discussões */
+.subtitulo-ideias{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  font-family:'roboto',
+  sans-serif;
+  color: #ED7839;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.discussao-icones{
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+.icone-batePapo {
+  margin: 0px 52px;
+}
+.discussao-paragrafo-um {
+  text-align: center;
+  padding-bottom: 20px;
+  top: 35px;
+  padding-left: 216px;
+  padding-right: 216px;
+}
+.div-botao-criarTopico {
+  display: flex;
+  position: relative;
+  background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+  color: #fff;
+  border-radius: 4px;
+  width: 133px;
+  height: 33px;
+  font-weight: 700;
+  font-size: 15px;
+  align-items: center;
+  left: 450px;
+}
+.icone-criarTopico {
+  display: inline-block;
+  margin-left: 10px;
+}
+.btn-criarTopico {
+  margin-left: 5px;
+}
+hr{
+  display: inline;
+  position: absolute;
+  width: 950px;
+  margin-left: 45px;
+  margin-right: 60px;
+  margin-top: 15px;
+  border: 1px solid #E7E7E7
+}
+/* seção perguntas */
+.detalhes-pergunta{
+  padding-left: 15px;
+}
+.preenchimento-pergunta {
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  padding-top: 17px;
+  padding-left: 24px;
+  padding-bottom: 18px;
+  margin: 15px;
+}
+.nome-carlos{
+  font-size: 12px;
+  width: 500;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  text-align: left;
+  color:#5C5C5C;
+}
+.container-like-resposta{
+  display: inline-flex;
+}
+.like-resposta{
+  flex-direction: row;
+  margin-right: 15px;
+  padding-top: 11px;
+}
+
+
